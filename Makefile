@@ -1,4 +1,4 @@
-.PHONY: default build install uninstall clean fmt
+.PHONY: default build install uninstall clean format
 .IGNORE: fmt
 
 default: build
@@ -18,5 +18,5 @@ clean:
 utop:
 	utop
 
-fmt:
+format:
 	dune build @fmt --auto-promote

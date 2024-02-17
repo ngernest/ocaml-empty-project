@@ -19,7 +19,7 @@
  (name ocaml_empty_project)
  (synopsis "A short synopsis")
  (description "A longer description")
- (depends ocaml dune)
+ (depends ocaml dune omod odig)
  (tags
   (topics "to describe" your project)))
 
