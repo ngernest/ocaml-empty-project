@@ -1,4 +1,9 @@
 (executable
- (public_name ocaml_empty_project)
+ (public_name main)
  (name main)
- (libraries ocaml_empty_project))
+ (libraries lib))
+
+(env
+ (dev
+  (flags
+   (:standard -g -w "-26-27-32-33-34-39"))))
