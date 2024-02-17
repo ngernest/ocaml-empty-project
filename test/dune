@@ -1,2 +1,2 @@
 (test
- (name ocaml_empty_project))
+ (name tests))
