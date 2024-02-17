@@ -5,7 +5,7 @@ Inspired by Mukul Rathi's [OCaml Testing template](https://github.com/mukul-rath
 **Main changes:**
 - `.ocamlinit` contains specific settings for Utop: 
   - Auto-complete suggestions are disabled by default, but can be re-enabled 
-    by entering `ubox ();;` ine m s
+    by entering `ubox ();;` in Utop
   - Omod is loaded by default into Utop, so that one can easily look-up 
     installed OCaml modules from within Utop
     - Run `Omod.status ();;` to list what was loaded by Omod
