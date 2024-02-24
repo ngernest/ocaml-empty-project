@@ -10,9 +10,13 @@ Inspired by Mukul Rathi's [OCaml Testing template](https://github.com/mukul-rath
     installed OCaml modules from within Utop
     - Run `Omod.status ();;` to list what was loaded by Omod
     - To use a module named `M`, run `Omod.load "M";;` in Utop
-  - To load definitions in files contained in the [lib] directory, 
-    use Utop's `#require` directive 
-    (e.g. `#require starter.ml` where `starter.ml` is contained in `lib`)
+  - To load definitions in files contained in the [lib] directory 
+    (e.g. `lib/starter.ml`), add the following lines to the end of `.ocamlinit`:
+    ```ocaml
+    #mod_use "starter.ml";;
+
+    open Starter
+    ```
 - Various compiler warnings regarding unused variables are suppressed
   via the `dune` files in both `lib` & `bin`
 - `.ocamlformat` contains linter settings that have worked well for me personally
