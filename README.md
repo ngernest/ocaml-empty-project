@@ -4,12 +4,7 @@ Inspired by Mukul Rathi's [OCaml Testing template](https://github.com/mukul-rath
 
 **Main changes:**
 - `.ocamlinit` contains specific settings for Utop: 
-  - Auto-complete suggestions are disabled by default, but can be re-enabled 
-    by entering `ubox ();;` in Utop
-  - Omod is loaded by default into Utop, so that one can easily look-up 
-    installed OCaml modules from within Utop
-    - Run `Omod.status ();;` to list what was loaded by Omod
-    - To use a module named `M`, run `Omod.load "M";;` in Utop
+  - Auto-complete suggestions are disabled to make Utop less visually noisy
   - To load definitions in files contained in the [lib] directory 
     (e.g. `lib/starter.ml`), add the following lines to the end of `.ocamlinit`:
     ```ocaml
@@ -28,5 +23,4 @@ Inspired by Mukul Rathi's [OCaml Testing template](https://github.com/mukul-rath
   libraries via their type signature (à la Hoogle)
 
 Dependencies:
-- [Omod](https://github.com/dbuenzli/omod)
 - [Odig](https://github.com/b0-system/odig)
