@@ -1,6 +1,6 @@
 (* Disable auto-complete suggestions by defaultr *)
 #utop_prompt_dummy;;
-UTop.set_show_box false
+UTop.set_show_box false;;
 
 (* Make files in the [lib] directory accessible to Utop *)
 #directory "./lib";;
