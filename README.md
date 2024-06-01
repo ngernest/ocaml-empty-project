@@ -25,6 +25,7 @@ Inspired by Mukul Rathi's [OCaml Testing template](https://github.com/mukul-rath
 version = 0.26.2
 ...
 ```
+- If you notice any other problems, please file an issue in this repo, thanks!
 
 **Other quality of life improvements**:
 - Run `odig doc` in the terminal to show the API docs of locally installed packages.
